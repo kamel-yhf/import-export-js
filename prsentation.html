@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Alimantation international</title>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body id="bgColor">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="pngtree-food-logo-designs-with-spoon-and-fork-png-image_879863.jpg" style="width: 50px; border-radius: 100%">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navb">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Acceuil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="prsentation.html">Présentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produit.html">Nos Produits
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-success my-2 my-sm-0" type="button" onclick="change()">Theme</button>
+            </form>
+        </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.daras-sa.com/upload/historique.jpg" alt="Los Angeles" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.daras-sa.com/upload/epicerie/negoce.jpg" alt="Chicago" width="1100" height="500">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+    <div class="container text-center">
+        <h3>QUI SOMME NOUS</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="well">
+                    <p id="para1" >Fondée à Marseille en 1876 par des négociants grecs, la société Georges S. DARAS s'inscrit dans la lignée des entreprises de négoce international étroitement associées à l'essor industriel et commercial de la cité phocéenne depuis la fin du XIXème siècle.
+                    Depuis plus de cinq générations, elle développe son savoir-faire dans le négoce de produits du sol, et plus particulièrement dans les épices, les fruits secs et les légumes secs.
+                    <br><br>
+                    Au cours de ces vingt dernières années, l’entreprise diversifie ses activités à l’agrochimie, aux produits métallurgiques, aux additifs alimentaires et aux gaz industriels.
+                    <br><br>
+                    Aujourd’hui, la société Georges S. DARAS;peut se prévaloir d’une renommée internationale alliant le savoir-faire à la qualité des produits.
+                    <br><br>
+                    Ayant su conserver un capital à structure familiale, elle est dirigée par Messieurs François Coullaut et Michel Daras, respectivement Président directeur général et Directeur général délégué.</p>
+                    <button onclick="disPara()">clic</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="well">
+                    <p class="spoiler">La société Georges S. DARAS est structurée en cinq départements commerciaux (concentrés sur leurs cœurs de métier).
+                        <br>
+                        <br>
+                    Chaque département est spécialisé dans une gamme limitée, garantissant qualité des produits et parfaite maitrise de la logistique, depuis le conditionnement jusqu’à la livraison, dans le respect de la réglementation en vigueur du pays d’importation.
+                        <br>
+                        <br>
+                    Qu’ils soient industriels, producteurs, importateurs ou grossistes, nous entretenons une relation privilégiée avec nos clients, reposant sur notre expertise dans les techniques du commerce international et le respect strict de nos engagements.
+                        <br>
+                        <br>
+                        De par notre réseau de partenaires et le recours aux outils d’assurance les plus performants, nous garantissons la maîtrise des risques inhérents au commerce international, afin d’allier la qualité du service à la satisfaction du client.</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="well">
+                    <p>À la recherche des meilleures sources d’approvisionnement, la société Georges S. DARAS a développé un riche réseau de fournisseurs présents sur les cinq continents.</p>
+                    <p>Au fil du temps, elle a su lier des relations commerciales privilégiées avec les pays du Maghreb, en s’appuyant sur un savoir-faire capitalisé par une présence commerciale sur le terrain depuis plus d’un demi-siècle.</p>
+                    <p>Nos autres principales zones d’activité sont tournées vers l’Europe l’Asie du Sud Est, les DOM TOM. </p>
+                </div>
+            </div>
+        </div>
+    </div><br>
+
+    <footer class="container-fluid text-center">
+        <p>kamel yakhlef</p>
+    </footer>
+    <script>
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
